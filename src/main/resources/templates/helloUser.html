@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>страница приветствия</title>
+</head>
+<body>
+Здравствуй <h1><span th:text="${x}"></span></h1>
+</br>
+<a href="index.html">обратно на главную</a>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя страничка</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <header>
+        <h1>Добро пожаловать на мою страничку!</h1>
+    </header>
+
+    <section>
+        <h2>Интересные факты</h2>
+        <ul class="facts-list">
+            <li>Факт 1: Вода - это жизнь.</li>
+            <li>Факт 2: Солнце - звезда.</li>
+            <li>Факт 3: Земля - третья планета от Солнца.</li>
+        </ul>
+
+        <h2>Мои любимые животные</h2>
+        <ol class="animals-list">
+            <li>Собака</li>
+            <li>Кошка</li>
+            <li>Попугай</li>
+        </ol>
+
+        <h2>Изображения</h2>
+        <img src="path/to/your/image.jpg" alt="Описание изображения" class="responsive-image">
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Моя страничка</p>
+    </footer>
+
+</body>
+</html>
